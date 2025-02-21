@@ -1,19 +1,16 @@
 import "./App.css";
-
+import Nav from './Nav';
 
 function App() {
-
-  return(
-    <nav className="w-7xl m-0  container bg-blue-300 p-4 flex">
-      <h1 className="font-bold text-amber-600" id="nav">Page</h1>
-      <ul className="cal">
-        <li className="text-purple-900">Explore</li>
-        <li className="text-purple-900">About</li>
-        <li className="text-purple-900">Product</li>
-        <li className="text-purple-900">Contact</li>
-      </ul>
-    </nav>
-  )
+  return (
+    <div className=" top-0 left-0 w-full">
+  <Nav />
+    <div className="min-h-100vh bg-blue-300 p-7 mt-28">
+      <h1 className="text-2xl font-bold">My React App</h1>
+      
+    </div>
+    </div>
+  );
 }
 
 export default App;
