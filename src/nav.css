@@ -1,0 +1,33 @@
+.list{
+    display: flex;
+    gap: 50px;
+    font-size: 17px;
+    font-family: "YAD5jdnkFxc 0",_fb_,auto;
+    position: absolute;
+    right:35px;
+    top:15px
+}
+.cv{
+    width:2px;
+    height:30px;
+    background:white ;
+    border-radius: 10px;
+}
+.at{
+    width: 60px;
+    height:10px;
+    display: flex;
+    background: transparent;
+    position: relative;
+    margin-left: -40px;
+    top:10px
+}
+.ab{
+    width: 10px;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 100;
+}

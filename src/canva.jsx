@@ -1,15 +1,10 @@
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import React from "react";
-import * as THREE from "three";
+import './canva.css'
+function Canvas() {
+    <>
+    <div>
 
-function CanvasComponent() {
-  return (
-   <div>
-    <img src="D:\HTML\Team_Member_List\Team_Member_List\5e9a56b849759f7dbed019d658cb17a1-removebg-preview.png" className=""/>
-    
-   </div>
-  );
+    </div>
+    </>
 }
 
-export default CanvasComponent;
+export default Canvas
