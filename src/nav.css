@@ -1,17 +1,32 @@
+h1{
+    font-family: 'Audiowide', san-serif;
+    margin-top: 10px;
+}
 .list{
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    color: white;
     font-size: 17px;
-    font-family: "YAD5jdnkFxc 0",_fb_,auto;
+    font-family: 'Orbitron',sans-serif;
+    font-weight:bold;
     position: absolute;
     right:35px;
-    top:15px
+    top:15px;
+}
+.a1,.a2,.a3{
+    padding:10px
+}
+.a1:hover, .a2:hover, .a3:hover{
+    border-radius: 20px;
+    background: rgba(255, 255, 255,0.5);
+    padding: 10px;
 }
 .cv{
     width:2px;
     height:30px;
     background:white ;
     border-radius: 10px;
+    margin-top: 10px;
 }
 .at{
     width: 60px;
@@ -19,8 +34,9 @@
     display: flex;
     background: transparent;
     position: relative;
-    margin-left: -40px;
-    top:10px
+    margin-left: -30px;
+    top:10px;
+    margin-top:10px
 }
 .ab{
     width: 10px;
