@@ -1,7 +1,7 @@
 import './canva.css'
 function Canvas() {
     return(
-    <div>
+    <div className='first'>
         <div className="circle"></div>
         <div className="front">Pick up Fast</div>
         <button>Explore</button>
