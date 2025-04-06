@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from './Nav';
 import Canvas from './Canva';
 import Intro from'./Intro'
+import Team from'./Team'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Nav />
       <Canvas />
       <Intro />
-
+      <Team />
     </div>
   );
 }

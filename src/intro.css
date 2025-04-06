@@ -11,6 +11,8 @@
     position: relative;
     top:20vh;
     border-radius: 40px;
+    display:flex;
+    align-items: center;
 }
 .box2{
     width:90vw;
@@ -20,4 +22,20 @@
     position: relative;
     top:30vh;
     border-radius: 40px;
+    display:flex;
+    align-items: center;
+}
+.text1{
+    font-size: 35px;
+    width:280px;
+    position: relative;
+    left:6vw;
+    text-align: start;
+}
+.text2{
+    font-size: 35px;
+    width:280px;
+    position:absolute;
+    right:5vw;
+    text-align: center;
 }
