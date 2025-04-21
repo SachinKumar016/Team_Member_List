@@ -3,9 +3,10 @@
     height:120vh;
     background-color: black;
     display: grid;
-    grid-template-columns: 30vw 70vw;
+    grid-template-columns: 28vw 68vw;
     grid-template-rows: 15vh 40vh 50vh;
-    padding-left:30px;
+    column-gap:10px;
+    row-gap: 10px;
     justify-content:center;
     align-content:center;
 }
@@ -37,4 +38,52 @@
     font-family:'Orbitron',sans-serif;
     font-weight:bold;
     text-shadow:4px 4px 0px rgb(105, 105, 105)
+}
+.notice{
+    position: relative;
+    top:100px;
+    font-size: 30px;
+    margin-bottom: -50px;
+}
+.product2{
+    grid-column:0/1;
+    grid-row:2/3;
+    padding:10px;
+    border-radius:40px;
+    column-gap:20px;
+    background-color:rgb(32, 32, 32);
+    margin-right: 13px;
+}
+.info2{
+    width:50%;
+    height:100%;
+    background-color:rgb(75, 75, 75);
+    border-radius:40px;
+    place-self: end;
+    position: relative;
+    top:5px;
+}
+.price2{
+    width:10vw;
+    height:10vh;
+    background-color:rgb(121, 121, 121);
+    border-radius:40px;
+    place-self:end
+}
+.notice1{
+    position: relative;
+    top:100px;
+    font-size: 30px;
+    margin-bottom: -50px;
+    margin-left: -390px;
+    z-index: 2;
+}
+.product3{
+    grid-column:0/1;
+    grid-row:3/4;
+    padding:10px;
+    border-radius:40px;
+    column-gap:20px;
+    background-color:rgb(32, 32, 32);
+    margin-right: 13px;
 }
